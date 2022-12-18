@@ -3,7 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
 
 :root {
-  --mainyellow: #FFCB00;
+  --mainyellow: #ECBC00;
+  /*old yelllow -- #FFCB00;*/
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -372,6 +373,7 @@ a:hover {
   text-align: center;
   position: relative;
   color: #fff;
+  margin-top: 50px;
 }
 
 #call-to-action .block {
@@ -583,7 +585,7 @@ figure .overlay:hover a {
 figure .buttons {
   position: absolute;
   top: 45%;
-  left: 24%;
+  left: 36%;
 }
 
 figure figcaption {
@@ -924,7 +926,11 @@ article {
 }
 
 .gallery {
-  padding: 100px;
+  padding: 50px;
+}
+
+.galleryTitle {
+  color: var(--mainyellow);
 }
 
 .gallery figure .buttons {
